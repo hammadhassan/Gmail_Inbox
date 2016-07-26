@@ -1,0 +1,48 @@
+.search {
+    background-color:#FFFFFF;
+    border-color: ;
+    border-radius: 3px;
+    border-style: solid;
+    font-size: 12px;
+    height: 18px;
+    float: left;
+    margin: -63px 115px;
+    padding: 8px 10px;
+    width: 650px;
+ }
+ header {
+    float: left;
+    width: 100%;
+    background-color: #E9E8E8;
+    z-index: 1000;
+ }
+ body {
+    margin: 0 auto;
+ }       
+ .drop {
+     float: right;
+     border-color: #E9E8E8;
+     border-radius: 3px;
+     border-style: solid;
+     margin: -62px -87px;
+     height: 36px;
+ }
+ .bar {
+     width: 700px;
+     
+ }
+ hr {
+     margin: 0 auto;
+ }
+ .button {
+    background-color: : rgba( 0, 0, 0, 0) -moa-linear-gradient(center top , #4387fd, #4683ea) repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    height: 30ox;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    width: 60px
+ }
