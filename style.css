@@ -32,7 +32,7 @@
      
  }
  hr {
-     margin: 0 auto;
+    border: 2px solid black;
  }
  .button {
     background-color: : rgba( 0, 0, 0, 0) -moa-linear-gradient(center top , #4387fd, #4683ea) repeat scroll 0 0;
@@ -40,9 +40,22 @@
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     box-sizing: border-box;
-    height: 30ox;
-    margin: 0;
+    height: 36px;
+    margin: -62px -148px;
     outline: medium none;
     padding: 0;
-    width: 60px
+    width: 60px;
+    float: right;
  }
+ .leftpanel {
+     float: left;
+     background-color: mediumpurple;
+     height: 100%;
+     width: 160px;
+     max-width: 400px;
+ }
+.cright {
+    width: 100%;
+    background-color: #E9E8E8;
+    z-index: 1000;
+}
