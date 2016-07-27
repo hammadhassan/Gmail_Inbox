@@ -6,7 +6,7 @@
     font-size: 12px;
     height: 18px;
     float: left;
-    margin: -63px 115px;
+    margin: -63px 165px;
     padding: 8px 10px;
     width: 650px;
  }
@@ -15,6 +15,9 @@
     width: 100%;
     background-color: #F1F1F1;
     z-index: 1000;
+ }
+ h1 {
+    text-indent: -9999px;
  }
   body {
     margin: 0 auto;
@@ -47,7 +50,7 @@
  }
  .leftpanel {
      float: left;
-     background-color: mediumpurple;
+     background-color: #FFFFFF;
      height: 100%;
      width: 160px;
      max-width: 400px;
@@ -61,7 +64,83 @@
     padding-bottom: 0px;
 }
 .logo {
+    background-color: transparent;
     background-position: 0 -762px;
+    float: left;
+    height: 210px;
+    margin: -113px -101px;
+    padding: 0;
+    position: fixed;
+}
+.mail {
+    background-color: #FFFFFF;
+    height: 128px;
+    width: 100%;
+}
+.mail1 {
+    float: left;
+}
+.mail2 {
+    float: right;
+}
+.b1 {
+    height: 34px;
+    margin: 11px 0px;
+    padding: 5px;
+    width: 85px;
+    float: left;
+}
+.b2 {
+    height: 34px;
+    margin: 11px 12px;
+    padding: 5px;
+    width: 85px;
+    float: left;
+}
+.b3 {
+    height: 34px;
+    margin: 11px -1px;
+    padding: 5px;
+    width: 85px;
+    float: left;
+}
+.drop1 {
+    color: maroon;
+    height: 34px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 11px 40px;
+    float: left;
+}
+.le {
+    height: 34px;
+    padding: 5px;
+    margin: 11px 18px;
+    width: 50px;
+    float: right;
+}
+.ri {
+    height: 34px;
+    padding: 5px;
+    margin: 11px -20px;    
+    width: 50px;
+    float: right;
+}
+.ge {
+    height: 34px;
+    padding: 5px;
+    margin: 11px 37px;
+    width: 85px;
+    float: right;
+}
+.com {
+    background-color: maroon;
+    border-right: 1em none;
+    color: white;
+    float: left;
+    font-weight: bold;
     height: 33px;
-    width: 92px;
+    margin: 0 38px;
+    width: 126px;
 }
