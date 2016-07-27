@@ -16,7 +16,7 @@
     background-color: #F1F1F1;
     z-index: 1000;
  }
- body {
+  body {
     margin: 0 auto;
  }       
  .drop {
@@ -59,4 +59,9 @@
     margin-bottom: 0px;
     margin: 0 auto; 
     padding-bottom: 0px;
+}
+.logo {
+    background-position: 0 -762px;
+    height: 33px;
+    width: 92px;
 }
