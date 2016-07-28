@@ -228,11 +228,10 @@
     font-size: 15px;
     font-weight: bold;
     height: 33px;
-    margin: 0 38px;
+    margin: 10px 38px;
     width: 126px;
     border-radius: 2px;
 }
-
 .sarch { float: left; width: 100%; }    
 .sarch i {
     color: red;
@@ -294,11 +293,45 @@
     box-sizing: border-box;
     float: left;
     height: 33px;
-    margin: 50px 169px;
+    margin: 50px 96px;
     outline: medium none;
     position: fixed;
     width: 183px;
 }
 .read i {
-    font-size: 17px;
+    font-size: 20px;
+}
+.read1 {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 50px 131px;
+    outline: medium none;
+    position: fixed;
+    width: 183px;
+}
+.read1 i {
+    font-size: 20px;
+}
+.read2 {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    height: 33px;
+    margin: 54px 260px;
+    outline: medium none;
+    position: fixed;
+    width: 183px;
+}
+.read2 span {
+    font-size: 22px;
 }
