@@ -24,9 +24,7 @@
  }       
  .drop {
      float: right;
-     border-color: #E9E8E8;
-     border-radius: 3px;
-     border-style: solid;
+     border-color: transparent;
      margin: -62px -87px;
      height: 36px;
  }
@@ -34,6 +32,40 @@
      width: 700px;
      
  }
+ .hdr {
+     float: right;
+}
+ .menu {
+    border-color: transparent;
+    color: silver;
+    float: right;
+    font-size: 27px;
+    margin: -58px 120px;
+ }
+ .bell {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 50%;
+    color: white;
+    float: right;
+    font-size: 12px;
+    height: 24px;
+    margin: -53px 87px;
+    padding: 0;
+    width: 24px;     
+ }
+.h {
+    background-color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    border-radius: 50%;
+    color: white;
+    float: right;
+    font-size: 27px;
+    height: 54px;
+    margin: -66px 13px;
+    padding: 0;
+    width: 54px
+}
  .button {
     background-color: rgba( 0, 0, 0, 0) -moa-linear-gradient(center top , #4387fd, #4683ea) repeat scroll 0 0;
     background-color: #4485F5;
@@ -101,6 +133,7 @@
     box-sizing: border-box;
     outline: medium none;
     background-color: #F3F3F3;
+    font-size: 17px;
 }
 .b2 {
     height: 34px;
@@ -134,10 +167,12 @@
     color: #D14130;
     height: 34px;
     background-color: transparent;
+    border-color: transparent;
     font-weight: bold;
     font-size: 19px;
     margin: 11px 40px;
     float: left;
+    border-radius: 0px;
 }
 .le {
     height: 34px;
@@ -152,6 +187,7 @@
     border-top-left-radius: 0;
     box-sizing: border-box;
     outline: medium none;
+    font-size: 17px;
 }
 .ri {
     height: 34px;
@@ -166,6 +202,7 @@
     border-top-left-radius: 0;
     box-sizing: border-box;
     outline: medium none;
+    font-size: 17px;
 }
 .ge {
     height: 34px;
@@ -180,20 +217,88 @@
     border-top-left-radius: 0;
     box-sizing: border-box;
     outline: medium none;
+    font-size: 17px;
 }
 .com {
-    background-color: #D14130;
-    border-right: 1em none;
+    background-color: #d14130;
+    border-color: transparent;
+    border-right: 1em none transparent;
     color: white;
     float: left;
+    font-size: 15px;
     font-weight: bold;
     height: 33px;
     margin: 0 38px;
     width: 126px;
+    border-radius: 2px;
 }
 
 .sarch { float: left; width: 100%; }    
 .sarch i {
     color: red;
     font-size: 50px;
+}
+.pm {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 10px 169px;
+    outline: medium none;
+    position: fixed;
+    width: 183px; 
+}
+.so {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 10px 353px;
+    outline: medium none;
+    position: fixed;
+    width: 183px; 
+}
+.upd {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 10px 537px;
+    outline: medium none;
+    position: fixed;
+    width: 183px; 
+}
+.for {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 10px 721px;
+    outline: medium none;
+    position: fixed;
+    width: 183px; 
+}
+.read {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 50px 169px;
+    outline: medium none;
+    position: fixed;
+    width: 183px;
+}
+.read i {
+    font-size: 17px;
 }
