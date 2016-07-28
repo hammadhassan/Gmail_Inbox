@@ -105,7 +105,7 @@
     float: left;
 }
 .drop1 {
-    color: maroon;
+    color: #D14130;
     height: 34px;
     background-color: transparent;
     font-weight: bold;
@@ -135,7 +135,7 @@
     float: right;
 }
 .com {
-    background-color: maroon;
+    background-color: #D14130;
     border-right: 1em none;
     color: white;
     float: left;
