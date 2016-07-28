@@ -67,8 +67,9 @@
     background-color: transparent;
     background-position: 0 -762px;
     float: left;
-    height: 210px;
-    margin: -113px -101px;
+    max-height: 60px;
+    max-width: 144px;
+    margin: -71px 18px;
     padding: 0;
     position: fixed;
 }
