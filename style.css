@@ -48,6 +48,10 @@
     width: 60px;
     float: right;
  }
+ .button i {
+     color: #FFFFFF;
+     font-size: 20px;
+ }
  .leftpanel {
      float: left;
      background-color: #FFFFFF;
