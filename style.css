@@ -249,6 +249,12 @@
     position: fixed;
     width: 183px; 
 }
+.pm i {
+    float: left;
+    font-size: 20px;
+    margin-right: -11px;
+    color: gray;
+}
 .so {
     border: 1px solid transparent;
     border-bottom-left-radius: 0;
@@ -261,19 +267,13 @@
     position: fixed;
     width: 183px; 
 }
-.upd {
-    border: 1px solid transparent;
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-    box-sizing: border-box;
+.so i {
     float: left;
-    height: 33px;
-    margin: 10px 537px;
-    outline: medium none;
-    position: fixed;
-    width: 183px; 
+    font-size: 20px;
+    margin-right: -11px;
+    color: grey;
 }
-.for {
+.upd {
     border: 1px solid transparent;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -285,6 +285,48 @@
     position: fixed;
     width: 183px; 
 }
+.upd i {
+    float: left;
+    font-size: 20px;
+    margin-right: -11px;
+    color: grey;
+}
+.tag {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 10px 537px;
+    outline: medium none;
+    position: fixed;
+    width: 183px; 
+}
+.tag i {
+    float: left;
+    font-size: 20px;
+    margin-right: -11px;
+    color: grey;
+}
+.for {
+    border: 1px solid transparent;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    box-sizing: border-box;
+    float: left;
+    height: 33px;
+    margin: 10px 906px;
+    outline: medium none;
+    position: fixed;
+    width: 183px; 
+}
+.for i {
+    float: left;
+    font-size: 20px;
+    margin-right: -11px;
+    color: grey;
+    }
 .read {
     background-color: #F5F5F5;
     border: 1px solid transparent;
