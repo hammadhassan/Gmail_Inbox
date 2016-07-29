@@ -90,7 +90,15 @@
      height: 100%;
      width: 160px;
      max-width: 400px;
+     
  }
+ .leftpanel li {
+     list-style: none;
+ }
+.leftpanel li span:hover {
+    border-left: medium solid #D14130;
+    height: 7px;
+}
 .cright {
     width: 100%;
     background-color: #E9E8E8;
@@ -247,7 +255,8 @@
     margin: 10px 169px;
     outline: medium none;
     position: fixed;
-    width: 183px; 
+    width: 183px;
+    font-weight: bold; 
 }
 .pm i {
     float: left;
@@ -265,7 +274,8 @@
     margin: 10px 353px;
     outline: medium none;
     position: fixed;
-    width: 183px; 
+    width: 183px;
+    font-weight: bold; 
 }
 .so i {
     float: left;
@@ -284,6 +294,7 @@
     outline: medium none;
     position: fixed;
     width: 183px; 
+    font-weight: bold;
 }
 .upd i {
     float: left;
@@ -302,6 +313,7 @@
     outline: medium none;
     position: fixed;
     width: 183px; 
+    font-weight: bold;
 }
 .tag i {
     float: left;
@@ -320,6 +332,7 @@
     outline: medium none;
     position: fixed;
     width: 183px; 
+    font-weight: bold;
 }
 .for i {
     float: left;
