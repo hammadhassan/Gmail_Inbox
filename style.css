@@ -259,6 +259,9 @@
     width: 183px;
     font-weight: bold; 
 }
+.pm :hover {
+    border-top: 1px solid black;
+}
 .pm i {
     float: left;
     font-size: 20px;
@@ -354,6 +357,8 @@
     position: fixed;
     width: 183px;
     color: silver;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 .read i {
     font-size: 20px;
@@ -389,12 +394,16 @@
     position: fixed;
     width: 183px;
     padding: 2px 39px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 .read2 span {
     font-size: 22px;
 }
 li :hover {
     color: #d14130;
+    border-left: 3px solid #d14130;
+    font-size: 20px;
 }
 .read3 {
     background-color: #F5F5F5;
@@ -411,6 +420,8 @@ li :hover {
     position: fixed;
     width: 900px;
     padding: 2px 39px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 .read3 span {
     font-size: 22px;
@@ -430,7 +441,24 @@ li :hover {
     padding: 2px 39px;
     position: fixed;
     width: 133px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 .date span {
     font-size: 22px;
+}
+.inbox {
+    font-size: 20px;
+}
+.start {
+    font-size: 20px;
+}
+.item {
+    font-size: 20px;
+}
+.draft {
+    font-size: 20px;
+}
+.more {
+    font-size: 20px;
 }
